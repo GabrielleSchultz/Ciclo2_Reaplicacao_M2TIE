@@ -9,6 +9,9 @@ body {
     color: #2D2D2D;
     font-family: "Poppins";
     align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -59,9 +62,10 @@ header h2 {
 
 main {
   width: 80%;
-  padding: 4rem;
+  padding: 2rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  display: flex;
 }
 
 .info {
@@ -69,4 +73,51 @@ main {
   justify-content: space-between;
   margin-bottom: 1rem;
   font-size: larger;
+}
+
+.info p {
+    margin-top: 1rem;
+}
+
+footer{
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: small;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 3rem
+}
+
+.footer-participantes h3{
+    color:#cd2643
+}
+
+.footer-licenca{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid #e5e0da;
+    padding-top: 1rem;
+    font-size: 0.85rem;
+    color: #6D6D6D;
+}
+
+.cc-icons {
+  height: 22px;  
+  vertical-align: text-bottom;
+  display: inline;
+}
+
+.destaque{
+    color:#cd2643;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.destaque:hover{
+    text-decoration: undelrine;
+    color:#e72848;
 }
