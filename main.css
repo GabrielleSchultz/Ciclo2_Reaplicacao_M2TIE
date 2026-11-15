@@ -87,7 +87,7 @@ main {
     justify-content: space-between;
     margin-top: 2.5rem;
     font-size: larger;
-    color:#cd2643
+    color: #cd2643
 }
 
 .info p {
@@ -103,7 +103,8 @@ footer {
     font-size: small;
     background-color: white;
     padding: 1rem;
-    margin-top: 3rem
+    margin-top: 3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .footer-content {
@@ -132,12 +133,14 @@ footer {
 }
 
 .footer-links a:hover {
-    color:#fff8ee;
+    color: #fff8ee;
     background-color: #e02847;
     font-weight: 800;
 }
 
-.participantes{
+.participantes {
+    border-top: 1px solid #d3a986;
+    padding-top: 1rem;
     text-align: center;
 }
 
@@ -158,7 +161,7 @@ footer {
 }
 
 
-.footer-licenca p{
+.footer-licenca p {
     padding: 0.5rem;
 }
 
@@ -180,7 +183,7 @@ footer {
 }
 
 .referenciado {
-    color:#131212;
+    color: #131212;
     font-weight: 400;
     text-decoration: none;
 }
