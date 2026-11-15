@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,13 +14,19 @@ body {
     flex-direction: column;
 }
 
-header{
+header {
     width: 100%;
     display: flex;
-    padding:3%;
+    padding: 3%;
     justify-content: space-between;
     align-items: center;
-    background-color: white
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(145, 113, 102, 0.158);
+}
+
+header a {
+    text-decoration: none;
+    color: #131212
 }
 
 header h1 {
@@ -28,15 +34,15 @@ header h1 {
     font-weight: 800
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     gap: 0.2rem;
     list-style-type: none;
 }
 
 header h1 {
-    font-size: 1.3rem;
-    color:#131212
+    font-size: 1.4rem;
+    color: #131212
 }
 
 header nav a {
@@ -48,38 +54,39 @@ header nav a {
     padding: 0.5rem 1rem;
 }
 
-header nav a:hover{
+header nav a:hover {
     font-weight: 600;
-    text-decoration: underline;
-    transition: 0.3s;
+    background-color: #e72848;
+    color: #fdf7ef;
+    transition: 0.3s
 }
 
 header h2 {
     font-size: 0.9rem;
-    color:#6D6D6D;
+    color: #6D6D6D;
     font-weight: 600;
 }
 
 main {
-  width: 80%;
-  padding: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-  display: flex;
+    width: 80%;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
 }
 
 .info {
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  font-size: larger;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: larger;
 }
 
 .info p {
     margin-top: 1rem;
 }
 
-footer{
+footer {
     margin-top: auto;
     width: 100%;
     display: flex;
@@ -91,11 +98,11 @@ footer{
     margin-top: 3rem
 }
 
-.footer-participantes h3{
-    color:#cd2643
+.footer-participantes h3 {
+    color: #cd2643
 }
 
-.footer-licenca{
+.footer-licenca {
     display: flex;
     align-items: center;
     text-align: center;
@@ -106,18 +113,18 @@ footer{
 }
 
 .cc-icons {
-  height: 22px;  
-  vertical-align: text-bottom;
-  display: inline;
+    height: 22px;
+    vertical-align: text-bottom;
+    display: inline;
 }
 
-.destaque{
-    color:#cd2643;
+.destaque {
+    color: #cd2643;
     font-weight: 700;
     text-decoration: none;
 }
 
-.destaque:hover{
+.destaque:hover {
     text-decoration: undelrine;
-    color:#e72848;
+    color: #e72848;
 }
