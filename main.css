@@ -90,6 +90,10 @@ main {
     display: flex;
 }
 
+main a {
+    text-decoration: none;
+}
+
 .info {
     align-items: center;
     justify-content: space-between;
