@@ -7,7 +7,7 @@
 body {
     background-color: #fff8ee;
     color: #2D2D2D;
-    font-family: "Poppins";
+    font-family: "Poppins",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
     min-height: 100vh;
     display: flex;
@@ -16,12 +16,26 @@ body {
 
 header {
     width: 100%;
-    display: flex;
-    padding: 3%;
-    justify-content: space-between;
     align-items: center;
     background-color: white;
     box-shadow: 0 4px 4px rgba(145, 113, 102, 0.158);
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: white;
+    align-items: center;
+}
+
+.top-header{
+    display: flex;
+    flex-direction: column;
+    background-color: #131212;
+    padding: 1%;
+    font-size: small;
+    color: #fdf7ef
 }
 
 header a {
@@ -41,7 +55,7 @@ header nav ul {
 }
 
 header h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #131212
 }
 
@@ -49,7 +63,8 @@ header nav a {
     color: #cd2643;
     align-items: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.15rem;
+    font-weight: 500;
     margin: 0 1rem;
     padding: 0.5rem 1rem;
 }
@@ -62,7 +77,7 @@ header nav a:hover {
 }
 
 header h2 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: #6D6D6D;
     font-weight: 600;
 }
@@ -78,7 +93,7 @@ main {
 .info {
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-size: larger;
 }
 
@@ -94,6 +109,11 @@ main {
     margin-top: 1rem;
 }
 
+.info div{
+    display: flex;
+    align-items: center;
+}
+
 footer {
     margin-top: auto;
     width: 100%;
@@ -104,12 +124,13 @@ footer {
     background-color: white;
     padding: 1rem;
     margin-top: 3rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 12px rgba(49, 44, 44, 0.2);
 }
 
 .footer-content {
     text-align: center;
     margin-bottom: 0.5rem;
+    font-size: 0.9rem;
 }
 
 .footer-content h2 {
@@ -129,6 +150,7 @@ footer {
     color: #cd2643;
     text-decoration: none;
     transition: 0.3s;
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
@@ -142,6 +164,8 @@ footer {
     border-top: 1px solid #d3a986;
     padding-top: 1rem;
     text-align: center;
+    border-bottom: 1px solid #d3a986;
+    padding-bottom: 1rem;
 }
 
 .participantes h3 {
@@ -156,10 +180,9 @@ footer {
     text-align: center;
     border-top: 1px solid #e5e0da;
     padding-top: 1rem;
-    font-size: 0.85rem;
+    font-size: 1rem;
     color: #6D6D6D;
 }
-
 
 .footer-licenca p {
     padding: 0.5rem;
@@ -192,4 +215,19 @@ footer {
     text-decoration: undelrine;
     color: #e72848;
     transition: 0.6s
+}
+
+.materiais ul, ol{
+    list-style-type: none;
+}
+
+.materiais div{
+    color: #cd2643;
+    font-weight: 700;
+    font-size: larger;
+    padding-top: 2rem;
+}
+
+.materiais iframe{
+    margin-top: 1rem;
 }
